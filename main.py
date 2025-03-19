@@ -4,7 +4,7 @@ if baglan:
     print('Bağlantı Başarılı')
 else:
     print('Bağlantı Başarısız')
-
+#bağlantı cümlesi
 veri=baglan.cursor()
 
 veri=baglan.cursor()
@@ -15,6 +15,6 @@ for i in ogr.fetchall():
     print("Öğrenci No: %s -- İsmi: %s -- Soyadı: %s -- Sınıfi: %s" %i)
 
 
-print('Kayıt eklendi')
+print('Kayıt eklendiii')
 baglan.commit()
 baglan.close()
