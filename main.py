@@ -7,7 +7,7 @@ else:
 #bağlantı cümlesi
 veri=baglan.cursor()
 
-veri=baglan.cursor()
+#veri=baglan.cursor()
 ogr= veri.execute('SELECT * FROM  ogrenci WHERE ogrenci_No= 5')
 #print(ogr.fetchall())
 
